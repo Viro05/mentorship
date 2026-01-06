@@ -1086,6 +1086,602 @@ jQuery(document).ready(function($) {
 // Write main files
 fs.writeFileSync("./build/index.html", indexHtml);
 
+// Create Resources page
+const resourcesHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resources - Mentorship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="resources-page">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header">
+            <div class="sticky-top">
+                <nav class="navbar main-navbar navbar-expand-lg bg-navbar py-4">
+                    <div class="container">
+                        <a href="./" class="navbar-brand fw-bold">Mentorship.</a>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="main-navbar" class="collapse navbar-collapse">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="./resources.html" class="nav-link active">Resources</a></li>
+                                <li class="nav-item"><a href="./mentors.html" class="nav-link">Find a mentor</a></li>
+                                <li class="dropdown nav-item">
+                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">Programs</a>
+                                    <ul class="dropdown-menu shadow border-0 rounded">
+                                        <li><a class="dropdown-item" href="./programs/career-mentorship-program.html">Career Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/life-coach-program.html">Life Coach Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-mentorship-program.html">Business Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-coach-program.html">Business Coach Program</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="./contact-us.html" class="nav-link">Contact Us</a></li>
+                            </ul>
+                            <div class="d-flex">
+                                <div>
+                                    <a href="./login.html" class="btn me-1 fw-bold border-0">Login</a>
+                                    <a href="./register.html" class="btn btn-primary">Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main id="primary" class="site-main">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1>Resources</h1>
+                        <p class="lead">Explore our comprehensive collection of mentorship and career development resources.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fa fa-book fa-2x text-primary mb-3"></i>
+                                <h5 class="card-title">Career Guides</h5>
+                                <p class="card-text">Comprehensive guides for career development and professional growth.</p>
+                                <a href="#" class="btn btn-outline-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fa fa-video fa-2x text-primary mb-3"></i>
+                                <h5 class="card-title">Video Tutorials</h5>
+                                <p class="card-text">Learn from expert mentors through our video tutorial library.</p>
+                                <a href="#" class="btn btn-outline-primary">Watch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fa fa-podcast fa-2x text-primary mb-3"></i>
+                                <h5 class="card-title">Podcasts</h5>
+                                <p class="card-text">Listen to inspiring stories and advice from successful professionals.</p>
+                                <a href="#" class="btn btn-outline-primary">Listen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="colophon" class="site-footer">
+            <div class="mt-5 bg-footer py-4 text-light">
+                <div class="container">
+                    <p class="text-center">© Copyright 2022 Mentorship. All Rights Reserved | Site-Map</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.dropdown-menu').not($(this).next()).removeClass('show').hide();
+            $('.dropdown-toggle').not(this).attr('aria-expanded', 'false');
+            var dropdownMenu = $(this).next('.dropdown-menu');
+            var isShown = dropdownMenu.hasClass('show');
+            if (isShown) {
+                dropdownMenu.removeClass('show').fadeOut(200);
+                $(this).attr('aria-expanded', 'false');
+            } else {
+                dropdownMenu.addClass('show').fadeIn(200);
+                $(this).attr('aria-expanded', 'true');
+            }
+        });
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu.show').removeClass('show').fadeOut(200);
+                $('.dropdown-toggle').attr('aria-expanded', 'false');
+            }
+        });
+    });
+    </script>
+</body>
+</html>`;
+
+// Create Mentors page
+const mentorsHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find a Mentor - Mentorship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="mentors-page">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header">
+            <div class="sticky-top">
+                <nav class="navbar main-navbar navbar-expand-lg bg-navbar py-4">
+                    <div class="container">
+                        <a href="./" class="navbar-brand fw-bold">Mentorship.</a>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="main-navbar" class="collapse navbar-collapse">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="./resources.html" class="nav-link">Resources</a></li>
+                                <li class="nav-item"><a href="./mentors.html" class="nav-link active">Find a mentor</a></li>
+                                <li class="dropdown nav-item">
+                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">Programs</a>
+                                    <ul class="dropdown-menu shadow border-0 rounded">
+                                        <li><a class="dropdown-item" href="./programs/career-mentorship-program.html">Career Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/life-coach-program.html">Life Coach Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-mentorship-program.html">Business Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-coach-program.html">Business Coach Program</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="./contact-us.html" class="nav-link">Contact Us</a></li>
+                            </ul>
+                            <div class="d-flex">
+                                <div>
+                                    <a href="./login.html" class="btn me-1 fw-bold border-0">Login</a>
+                                    <a href="./register.html" class="btn btn-primary">Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main id="primary" class="site-main">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1>Find a Mentor</h1>
+                        <p class="lead">Connect with experienced mentors who can guide your career journey.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mentor-card p-3">
+                            <div class="mentor-card-img text-center">
+                                <img alt="Mentor Avatar" class="img-fluid rounded-circle" width="80" height="80" src="./assets/images/avatar.png">
+                            </div>
+                            <div class="mentor-card-info mt-3 border-bottom">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <a class="text-info h5" href="#">Sarah Johnson</a>
+                                        <p class="text-small ms-1">Senior Product Manager</p>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <span class="text-info star-stat">(4.9)</span>
+                                        <div class="text-warning">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mentor-card-stat mt-2">
+                                <div class="row align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-muted mb-0">Expertise: Product Strategy, Team Leadership</p>
+                                        <a href="#" class="btn btn-primary btn-sm mt-2">Connect</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mentor-card p-3">
+                            <div class="mentor-card-img text-center">
+                                <img alt="Mentor Avatar" class="img-fluid rounded-circle" width="80" height="80" src="./assets/images/avatar.png">
+                            </div>
+                            <div class="mentor-card-info mt-3 border-bottom">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <a class="text-info h5" href="#">Michael Chen</a>
+                                        <p class="text-small ms-1">Tech Entrepreneur</p>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <span class="text-info star-stat">(4.8)</span>
+                                        <div class="text-warning">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mentor-card-stat mt-2">
+                                <div class="row align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-muted mb-0">Expertise: Startup Strategy, Business Development</p>
+                                        <a href="#" class="btn btn-primary btn-sm mt-2">Connect</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mentor-card p-3">
+                            <div class="mentor-card-img text-center">
+                                <img alt="Mentor Avatar" class="img-fluid rounded-circle" width="80" height="80" src="./assets/images/avatar.png">
+                            </div>
+                            <div class="mentor-card-info mt-3 border-bottom">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <a class="text-info h5" href="#">Emily Rodriguez</a>
+                                        <p class="text-small ms-1">Life Coach</p>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <span class="text-info star-stat">(5.0)</span>
+                                        <div class="text-warning">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mentor-card-stat mt-2">
+                                <div class="row align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-muted mb-0">Expertise: Personal Development, Career Transitions</p>
+                                        <a href="#" class="btn btn-primary btn-sm mt-2">Connect</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="colophon" class="site-footer">
+            <div class="mt-5 bg-footer py-4 text-light">
+                <div class="container">
+                    <p class="text-center">© Copyright 2022 Mentorship. All Rights Reserved | Site-Map</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.dropdown-menu').not($(this).next()).removeClass('show').hide();
+            $('.dropdown-toggle').not(this).attr('aria-expanded', 'false');
+            var dropdownMenu = $(this).next('.dropdown-menu');
+            var isShown = dropdownMenu.hasClass('show');
+            if (isShown) {
+                dropdownMenu.removeClass('show').fadeOut(200);
+                $(this).attr('aria-expanded', 'false');
+            } else {
+                dropdownMenu.addClass('show').fadeIn(200);
+                $(this).attr('aria-expanded', 'true');
+            }
+        });
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu.show').removeClass('show').fadeOut(200);
+                $('.dropdown-toggle').attr('aria-expanded', 'false');
+            }
+        });
+    });
+    </script>
+</body>
+</html>`;
+
+// Create Contact Us page
+const contactHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Mentorship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="contact-page">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header">
+            <div class="sticky-top">
+                <nav class="navbar main-navbar navbar-expand-lg bg-navbar py-4">
+                    <div class="container">
+                        <a href="./" class="navbar-brand fw-bold">Mentorship.</a>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="main-navbar" class="collapse navbar-collapse">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="./resources.html" class="nav-link">Resources</a></li>
+                                <li class="nav-item"><a href="./mentors.html" class="nav-link">Find a mentor</a></li>
+                                <li class="dropdown nav-item">
+                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">Programs</a>
+                                    <ul class="dropdown-menu shadow border-0 rounded">
+                                        <li><a class="dropdown-item" href="./programs/career-mentorship-program.html">Career Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/life-coach-program.html">Life Coach Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-mentorship-program.html">Business Mentorship Program</a></li>
+                                        <li><a class="dropdown-item" href="./programs/business-coach-program.html">Business Coach Program</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="./contact-us.html" class="nav-link active">Contact Us</a></li>
+                            </ul>
+                            <div class="d-flex">
+                                <div>
+                                    <a href="./login.html" class="btn me-1 fw-bold border-0">Login</a>
+                                    <a href="./register.html" class="btn btn-primary">Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main id="primary" class="site-main">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1>Contact Us</h1>
+                        <p class="lead">Get in touch with us for any questions or support.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Subject" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="colophon" class="site-footer">
+            <div class="mt-5 bg-footer py-4 text-light">
+                <div class="container">
+                    <p class="text-center">© Copyright 2022 Mentorship. All Rights Reserved | Site-Map</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.dropdown-menu').not($(this).next()).removeClass('show').hide();
+            $('.dropdown-toggle').not(this).attr('aria-expanded', 'false');
+            var dropdownMenu = $(this).next('.dropdown-menu');
+            var isShown = dropdownMenu.hasClass('show');
+            if (isShown) {
+                dropdownMenu.removeClass('show').fadeOut(200);
+                $(this).attr('aria-expanded', 'false');
+            } else {
+                dropdownMenu.addClass('show').fadeIn(200);
+                $(this).attr('aria-expanded', 'true');
+            }
+        });
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu.show').removeClass('show').fadeOut(200);
+                $('.dropdown-toggle').attr('aria-expanded', 'false');
+            }
+        });
+        $('form').on('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    });
+    </script>
+</body>
+</html>`;
+
+// Create Login page
+const loginHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login - Mentorship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="login-page">
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="row w-100 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow">
+                    <div class="card-body p-5">
+                        <div class="text-center mb-4">
+                            <a href="./" class="navbar-brand fw-bold h3">Mentorship.</a>
+                            <h4 class="mt-3">Welcome Back</h4>
+                            <p class="text-muted">Sign in to your account</p>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Sign In</button>
+                            </div>
+                            <div class="text-center mt-3">
+                                <p>Don't have an account? <a href="./register.html">Sign up</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    $('form').on('submit', function(e) {
+        e.preventDefault();
+        alert('Demo login - redirecting to home page');
+        window.location.href = './';
+    });
+    </script>
+</body>
+</html>`;
+
+// Create Register page
+const registerHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up - Mentorship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="register-page">
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="row w-100 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow">
+                    <div class="card-body p-5">
+                        <div class="text-center mb-4">
+                            <a href="./" class="navbar-brand fw-bold h3">Mentorship.</a>
+                            <h4 class="mt-3">Create Account</h4>
+                            <p class="text-muted">Join our mentorship community</p>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Confirm Password" required>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" required>
+                                    <option value="">I want to be a...</option>
+                                    <option value="mentee">Mentee - Looking for guidance</option>
+                                    <option value="mentor">Mentor - Ready to guide others</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                                <label class="form-check-label" for="agreeTerms">I agree to the Terms and Conditions</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Create Account</button>
+                            </div>
+                            <div class="text-center mt-3">
+                                <p>Already have an account? <a href="./login.html">Sign in</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    $('form').on('submit', function(e) {
+        e.preventDefault();
+        alert('Demo registration - redirecting to home page');
+        window.location.href = './';
+    });
+    </script>
+</body>
+</html>`;
+
+// Write all pages
+fs.writeFileSync("./build/resources.html", resourcesHtml);
+fs.writeFileSync("./build/mentors.html", mentorsHtml);
+fs.writeFileSync("./build/contact-us.html", contactHtml);
+fs.writeFileSync("./build/login.html", loginHtml);
+fs.writeFileSync("./build/register.html", registerHtml);
+
 // Create a simple 404 page
 const notFoundHtml = `<!DOCTYPE html>
 <html lang="en">
