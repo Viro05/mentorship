@@ -1556,16 +1556,94 @@ const loginHtml = `<!DOCTYPE html>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="login-page">
-    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
-        <div class="row w-100 justify-content-center">
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow">
-                    <div class="card-body p-5">
-                        <div class="text-center mb-4">
-                            <a href="./" class="navbar-brand fw-bold h3">Mentorship.</a>
-                            <h4 class="mt-3">Welcome Back</h4>
-                            <p class="text-muted">Sign in to your account</p>
+
+<div id="page" class="site">
+    <header id="masthead" class="site-header">
+        <div class="sticky-top">
+            <nav class="navbar main-navbar navbar-expand-lg bg-navbar py-4">
+                <div class="container">
+                    <a href="./" class="navbar-brand fw-bold">
+                        Mentorship.
+                    </a>
+
+                    <button type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#main-navbar"
+                            aria-controls="main-navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                            class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div id="main-navbar" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="./" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./resources.html" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./mentors.html" class="nav-link">Find a mentor</a>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a href="#"
+                                   data-bs-toggle="dropdown"
+                                   aria-expanded="false"
+                                   class="nav-link dropdown-toggle">
+                                    Programs
+                                </a>
+                                <ul class="dropdown-menu shadow border-0 rounded">
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/career-mentorship-program.html">
+                                            Career Mentorship Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/life-coach-program.html">
+                                            Life Coach Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/business-mentorship-program.html">
+                                            Business Mentorship Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/business-coach-program.html">
+                                            Business Coach Program
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact-us.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex">
+                            <div>
+                                <a href="./login.html" class="btn me-1 fw-bold border-0 active">Login</a>
+                                <a href="./register.html" class="btn btn-primary">Signup</a>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="primary" class="site-main">
+        <div class="container-fluid vh-100 d-flex align-items-center justify-content-center" style="padding-top: 100px;">
+            <div class="row w-100 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <h4>Welcome Back</h4>
+                                <p class="text-muted">Sign in to your account</p>
+                            </div>
                         <form>
                             <div class="mb-3">
                                 <input type="email" class="form-control" placeholder="Email Address" required>
@@ -1592,10 +1670,33 @@ const loginHtml = `<!DOCTYPE html>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-    $('form').on('submit', function(e) {
-        e.preventDefault();
-        alert('Demo login - redirecting to home page');
-        window.location.href = './';
+    jQuery(document).ready(function($) {
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.dropdown-menu').not($(this).next()).removeClass('show').hide();
+            $('.dropdown-toggle').not(this).attr('aria-expanded', 'false');
+            var dropdownMenu = $(this).next('.dropdown-menu');
+            var isShown = dropdownMenu.hasClass('show');
+            if (isShown) {
+                dropdownMenu.removeClass('show').fadeOut(200);
+                $(this).attr('aria-expanded', 'false');
+            } else {
+                dropdownMenu.addClass('show').fadeIn(200);
+                $(this).attr('aria-expanded', 'true');
+            }
+        });
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu.show').removeClass('show').fadeOut(200);
+                $('.dropdown-toggle').attr('aria-expanded', 'false');
+            }
+        });
+        $('form').on('submit', function(e) {
+            e.preventDefault();
+            alert('Demo login - redirecting to home page');
+            window.location.href = './';
+        });
     });
     </script>
 </body>
@@ -1617,16 +1718,94 @@ const registerHtml = `<!DOCTYPE html>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="register-page">
-    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
-        <div class="row w-100 justify-content-center">
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow">
-                    <div class="card-body p-5">
-                        <div class="text-center mb-4">
-                            <a href="./" class="navbar-brand fw-bold h3">Mentorship.</a>
-                            <h4 class="mt-3">Create Account</h4>
-                            <p class="text-muted">Join our mentorship community</p>
+
+<div id="page" class="site">
+    <header id="masthead" class="site-header">
+        <div class="sticky-top">
+            <nav class="navbar main-navbar navbar-expand-lg bg-navbar py-4">
+                <div class="container">
+                    <a href="./" class="navbar-brand fw-bold">
+                        Mentorship.
+                    </a>
+
+                    <button type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#main-navbar"
+                            aria-controls="main-navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                            class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div id="main-navbar" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="./" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./resources.html" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./mentors.html" class="nav-link">Find a mentor</a>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a href="#"
+                                   data-bs-toggle="dropdown"
+                                   aria-expanded="false"
+                                   class="nav-link dropdown-toggle">
+                                    Programs
+                                </a>
+                                <ul class="dropdown-menu shadow border-0 rounded">
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/career-mentorship-program.html">
+                                            Career Mentorship Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/life-coach-program.html">
+                                            Life Coach Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/business-mentorship-program.html">
+                                            Business Mentorship Program
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./programs/business-coach-program.html">
+                                            Business Coach Program
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact-us.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex">
+                            <div>
+                                <a href="./login.html" class="btn me-1 fw-bold border-0">Login</a>
+                                <a href="./register.html" class="btn btn-primary active">Signup</a>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="primary" class="site-main">
+        <div class="container-fluid vh-100 d-flex align-items-center justify-content-center" style="padding-top: 100px;">
+            <div class="row w-100 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <h4>Create Account</h4>
+                                <p class="text-muted">Join our mentorship community</p>
+                            </div>
                         <form>
                             <div class="mb-3">
                                 <input type="text" class="form-control" placeholder="Full Name" required>
@@ -1666,10 +1845,33 @@ const registerHtml = `<!DOCTYPE html>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-    $('form').on('submit', function(e) {
-        e.preventDefault();
-        alert('Demo registration - redirecting to home page');
-        window.location.href = './';
+    jQuery(document).ready(function($) {
+        $('.dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.dropdown-menu').not($(this).next()).removeClass('show').hide();
+            $('.dropdown-toggle').not(this).attr('aria-expanded', 'false');
+            var dropdownMenu = $(this).next('.dropdown-menu');
+            var isShown = dropdownMenu.hasClass('show');
+            if (isShown) {
+                dropdownMenu.removeClass('show').fadeOut(200);
+                $(this).attr('aria-expanded', 'false');
+            } else {
+                dropdownMenu.addClass('show').fadeIn(200);
+                $(this).attr('aria-expanded', 'true');
+            }
+        });
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu.show').removeClass('show').fadeOut(200);
+                $('.dropdown-toggle').attr('aria-expanded', 'false');
+            }
+        });
+        $('form').on('submit', function(e) {
+            e.preventDefault();
+            alert('Demo registration - redirecting to home page');
+            window.location.href = './';
+        });
     });
     </script>
 </body>
