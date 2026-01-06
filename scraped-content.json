@@ -1,0 +1,338 @@
+{
+  "url": "https://dev-client.mentorsbrain.com",
+  "title": "Mentorship",
+  "scrapedAt": "2026-01-02T01:10:56.045Z",
+  "html": "<!DOCTYPE html><html lang=\"en\"><head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Mentorship</title>\n\t\t<base href=\"/\">\n\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\" integrity=\"sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\">\n\t<style>@import\"https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Inter:wght@300;400;500&family=Montserrat:wght@100&display=swap\";@charset \"UTF-8\";:root{--bs-blue:#60AEE5;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#2DA647;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#e9e9ea;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#296794;--bs-secondary:#F5F5F5;--bs-primary-light:rgba(183, 225, 255, .2196078431);--bs-success:#2DA647;--bs-info:#2590B1;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:41, 103, 148;--bs-secondary-rgb:245, 245, 245;--bs-primary-light-rgb:183, 225, 255;--bs-success-rgb:45, 166, 71;--bs-info-rgb:37, 144, 177;--bs-warning-rgb:255, 193, 7;--bs-danger-rgb:220, 53, 69;--bs-light-rgb:248, 249, 250;--bs-dark-rgb:33, 37, 41;--bs-white-rgb:255, 255, 255;--bs-black-rgb:0, 0, 0;--bs-body-color-rgb:33, 37, 41;--bs-body-bg-rgb:255, 255, 255;--bs-font-sans-serif:system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";--bs-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-bg:#fff;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#e9e9ea;--bs-border-color-translucent:rgba(0, 0, 0, .175);--bs-border-radius:.375rem;--bs-border-radius-sm:.25rem;--bs-border-radius-lg:.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-2xl:2rem;--bs-border-radius-pill:50rem;--bs-link-color:#296794;--bs-link-hover-color:#215276;--bs-code-color:#d63384;--bs-highlight-bg:#fff3cd}*,*:before,*:after{box-sizing:border-box}@media (prefers-reduced-motion: no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:Inter,Montserrat,sans-serif;scroll-behavior:smooth;font-weight:500}</style><link rel=\"stylesheet\" href=\"styles.daf320c7eaebde0c.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles.daf320c7eaebde0c.css\"></noscript><style>.alert-box[_ngcontent-thm-c30]{position:fixed;z-index:10000}.alert-box[_ngcontent-thm-c30]   .alert-content[_ngcontent-thm-c30]{background-color:#fefefe;border:1px solid transparent;border-top-width:3px;border-top-style:solid;padding:10px;box-shadow:0 4px 6px #0000003a;margin:10px;max-width:450px;min-width:150px;font-size:14px;border-radius:5px;color:#595959}.alert-box[_ngcontent-thm-c30]   .alert-content.scale[_ngcontent-thm-c30]{transform:scale(1.08);transition:all 1s}.alert-box[_ngcontent-thm-c30]   .alert-body[_ngcontent-thm-c30]{position:relative}.alert-box[_ngcontent-thm-c30]   .alert-body[_ngcontent-thm-c30]   .close-btn[_ngcontent-thm-c30]{position:absolute;border-radius:5px;top:-20px;right:0;background-color:#eaeaea;color:#000}.alert-box.top-left[_ngcontent-thm-c30]{top:0;left:0}.alert-box.bottom-right[_ngcontent-thm-c30]{bottom:0;right:0}.alert-box.middle[_ngcontent-thm-c30]{inset:0;height:100vh;background-color:#191a1a69;display:flex;justify-content:center;align-items:center}.alert-icon[_ngcontent-thm-c30]{text-align:center}</style><style>.md-loader-container[_ngcontent-thm-c32]{display:flex;position:fixed;z-index:1000;justify-content:center;inset:0;background-color:#0000006e;z-index:3000}.md-loader-container[_ngcontent-thm-c32]   .md-loader[_ngcontent-thm-c32]{background-color:#d1d5e4;border-radius:10px;margin:auto;text-align:center;font-weight:700;font-size:12px;box-shadow:0 3px 5px #0000004d}</style><style>.counter-number[_ngcontent-thm-c38]{font-weight:500;font-size:32px;line-height:39px}.counter-text[_ngcontent-thm-c38]{font-weight:400;font-size:16px;line-height:19px;color:#dedede;text-transform:capitalize}.counter-item[_ngcontent-thm-c38]{border-right:3px solid white;text-align:center;padding:20px}</style><style>.program-card[_ngcontent-thm-c37]{height:100%}.program-card[_ngcontent-thm-c37]   .card-body[_ngcontent-thm-c37]{display:flex;flex-direction:column;justify-content:space-between}</style><style>.mentor-card[_ngcontent-thm-c35]{background:#FFFFFF;box-shadow:1px 1px 7px #00000040;border-radius:8px;border:none;width:98%;margin:auto}.mentor-card-img[_ngcontent-thm-c35]{overflow:hidden;border-radius:4px}.mentor-card-info[_ngcontent-thm-c35]   .h5[_ngcontent-thm-c35]{font-size:18px}.mentor-card-info[_ngcontent-thm-c35]   .h5[_ngcontent-thm-c35], .mentor-card-info[_ngcontent-thm-c35]   p[_ngcontent-thm-c35]{line-height:140%}.text-star[_ngcontent-thm-c35]   .fa-star[_ngcontent-thm-c35], .text-star[_ngcontent-thm-c35]   .star-stat[_ngcontent-thm-c35]{font-size:12px}</style></head>\n\n\t<body>\n\t\t<app-root _nghost-thm-c33=\"\" ng-version=\"15.2.0\"><router-outlet _ngcontent-thm-c33=\"\"></router-outlet><app-public _nghost-thm-c42=\"\"><app-public-navbar _ngcontent-thm-c42=\"\" _nghost-thm-c40=\"\"><div _ngcontent-thm-c40=\"\" class=\"sticky-top\"><nav _ngcontent-thm-c40=\"\" class=\"navbar main-navbar navbar-expand-lg bg-navbar py-4\"><div _ngcontent-thm-c40=\"\" class=\"container\"><a _ngcontent-thm-c40=\"\" href=\"/\" class=\"navbar-brand fw-bold\">Mentorship.</a><button _ngcontent-thm-c40=\"\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#main-navabar\" aria-controls=\"main-navabar\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span _ngcontent-thm-c40=\"\" class=\"navbar-toggler-icon\"></span></button><div _ngcontent-thm-c40=\"\" id=\"main-navabar\" class=\"collapse navbar-collapse\"><ul _ngcontent-thm-c40=\"\" class=\"navbar-nav mx-auto mb-2 mb-lg-0\"><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/\" routerlinkactive=\"active\" class=\"nav-link active\" href=\"/\">Home</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlinkactive=\"active\" routerlink=\"/resources\" class=\"nav-link\" href=\"/resources\">Resources</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/mentors\" class=\"nav-link\" href=\"/mentors\">Find a mentor</a></li><li _ngcontent-thm-c40=\"\" class=\"dropdown nav-item\"><a _ngcontent-thm-c40=\"\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" routerlinkactive=\"active\" class=\"nav-link dropdown-toggle\"> Programs </a><ul _ngcontent-thm-c40=\"\" class=\"dropdown-menu shadow border-0 rounded\"><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/career-mentorship-program\"> Career Mentorship Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/life-coach-program\"> Life Coach Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/business-mentorship-program\"> Business Mentorship Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/business-coach-program\"> Business Coach Program </a></li><!----></ul><!----></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/contact-us\" class=\"nav-link\" href=\"/contact-us\">Contact Us</a></li></ul><div _ngcontent-thm-c40=\"\" class=\"d-flex\"><!----><div _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" routerlink=\"/login\" class=\"btn me-1 fw-bold border-0\" href=\"/login\">Login</a><a _ngcontent-thm-c40=\"\" routerlink=\"/register\" class=\"btn btn-primary\" href=\"/register\">Signup</a></div><!----></div></div></div></nav></div></app-public-navbar><main _ngcontent-thm-c42=\"\"><router-outlet _ngcontent-thm-c42=\"\"></router-outlet><app-home _nghost-thm-c38=\"\"><div _ngcontent-thm-c38=\"\"><div _ngcontent-thm-c38=\"\" class=\"container py-3 py-sm-5\"><div _ngcontent-thm-c38=\"\" class=\"row flex-lg-row-reverse justify-content-between align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"mx-auto col-sm-8 col-lg-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/hero-img.png\" width=\"700\" height=\"500\" loading=\"lazy\" class=\"d-block mx-lg-auto img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-lg-6\"><h1 _ngcontent-thm-c38=\"\" class=\"hero-title mb-4 d-flex flex-wrap\"> Find your <span _ngcontent-thm-c38=\"\" class=\"text-marked idol\"> IDOL <img _ngcontent-thm-c38=\"\" src=\"assets/illustrations/iii.png\" alt=\"\" class=\"iii\"></span> and <span _ngcontent-thm-c38=\"\" class=\"text-marked ms-0\">KISS</span> your <span _ngcontent-thm-c38=\"\" class=\"text-marked\"> SUCCESS <span _ngcontent-thm-c38=\"\" class=\"bar\"></span><span _ngcontent-thm-c38=\"\" class=\"bar\"></span></span></h1><p _ngcontent-thm-c38=\"\" class=\"fw-semibold fs-5 hero-description mt-4\"> Get in touch with your mentor for previte one on one online lesson to boost your success </p><div _ngcontent-thm-c38=\"\" class=\"d-grid gap-2 d-md-flex justify-content-md-start\"><a _ngcontent-thm-c38=\"\" routerlink=\"/register\" class=\"btn btn-outline-primary\" href=\"/register\">Become mentor</a><a _ngcontent-thm-c38=\"\" routerlink=\"/mentors\" class=\"btn btn-primary\" href=\"/mentors\">Find mentor</a></div></div></div></div><div _ngcontent-thm-c38=\"\" class=\"container my-5\"><div _ngcontent-thm-c38=\"\" class=\"row\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 col-lg-3\"><app-program-item _ngcontent-thm-c38=\"\" _nghost-thm-c37=\"\"><div _ngcontent-thm-c37=\"\" class=\"py-1\" style=\"height: 100%;\"><div _ngcontent-thm-c37=\"\" class=\"card program-card\"><div _ngcontent-thm-c37=\"\" class=\"card-body\"><span _ngcontent-thm-c37=\"\" class=\"program-icon\" style=\"background-color: rgb(40, 69, 126);\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i></span><div _ngcontent-thm-c37=\"\" class=\"program-type\"></div><div _ngcontent-thm-c37=\"\" class=\"program-title my-2\"> Career Mentorship Program </div><div _ngcontent-thm-c37=\"\" class=\"program-description mb-3\"> Guidance, Support, Skill Development, Networking, Growth. </div><p _ngcontent-thm-c37=\"\" class=\"mb-0\"><a _ngcontent-thm-c37=\"\" class=\"text-info\" href=\"/programs/career-mentorship-program\"> View more <i _ngcontent-thm-c37=\"\" aria-hidden=\"true\" class=\"fa fa-arrow-circle-right ms-2\"></i></a></p></div></div><!----></div></app-program-item></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 col-lg-3\"><app-program-item _ngcontent-thm-c38=\"\" _nghost-thm-c37=\"\"><div _ngcontent-thm-c37=\"\" class=\"py-1\" style=\"height: 100%;\"><div _ngcontent-thm-c37=\"\" class=\"card program-card\"><div _ngcontent-thm-c37=\"\" class=\"card-body\"><span _ngcontent-thm-c37=\"\" class=\"program-icon\" style=\"background-color: rgb(32, 177, 9);\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i></span><div _ngcontent-thm-c37=\"\" class=\"program-type\"></div><div _ngcontent-thm-c37=\"\" class=\"program-title my-2\"> Life Coach Program </div><div _ngcontent-thm-c37=\"\" class=\"program-description mb-3\"> Personal Growth, Self-Discovery, Empowerment, Balance, Fulfillment. </div><p _ngcontent-thm-c37=\"\" class=\"mb-0\"><a _ngcontent-thm-c37=\"\" class=\"text-info\" href=\"/programs/life-coach-program\"> View more <i _ngcontent-thm-c37=\"\" aria-hidden=\"true\" class=\"fa fa-arrow-circle-right ms-2\"></i></a></p></div></div><!----></div></app-program-item></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 col-lg-3\"><app-program-item _ngcontent-thm-c38=\"\" _nghost-thm-c37=\"\"><div _ngcontent-thm-c37=\"\" class=\"py-1\" style=\"height: 100%;\"><div _ngcontent-thm-c37=\"\" class=\"card program-card\"><div _ngcontent-thm-c37=\"\" class=\"card-body\"><span _ngcontent-thm-c37=\"\" class=\"program-icon\" style=\"background-color: rgb(255, 0, 245);\"><i class=\"fa fa-gift\" aria-hidden=\"true\"></i></span><div _ngcontent-thm-c37=\"\" class=\"program-type\"></div><div _ngcontent-thm-c37=\"\" class=\"program-title my-2\"> Business Mentorship Program </div><div _ngcontent-thm-c37=\"\" class=\"program-description mb-3\"> Entrepreneurial Success, Strategy, Expertise, Networking, Growth.  </div><p _ngcontent-thm-c37=\"\" class=\"mb-0\"><a _ngcontent-thm-c37=\"\" class=\"text-info\" href=\"/programs/business-mentorship-program\"> View more <i _ngcontent-thm-c37=\"\" aria-hidden=\"true\" class=\"fa fa-arrow-circle-right ms-2\"></i></a></p></div></div><!----></div></app-program-item></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 col-lg-3\"><app-program-item _ngcontent-thm-c38=\"\" _nghost-thm-c37=\"\"><div _ngcontent-thm-c37=\"\" class=\"py-1\" style=\"height: 100%;\"><div _ngcontent-thm-c37=\"\" class=\"card program-card\"><div _ngcontent-thm-c37=\"\" class=\"card-body\"><span _ngcontent-thm-c37=\"\" class=\"program-icon\" style=\"background-color: rgb(255, 138, 0);\"><i class=\"fa fa-gift\" aria-hidden=\"true\"></i></span><div _ngcontent-thm-c37=\"\" class=\"program-type\"></div><div _ngcontent-thm-c37=\"\" class=\"program-title my-2\"> Business Coach Program </div><div _ngcontent-thm-c37=\"\" class=\"program-description mb-3\"> Success, Strategy, Skills, Support, Growth. </div><p _ngcontent-thm-c37=\"\" class=\"mb-0\"><a _ngcontent-thm-c37=\"\" class=\"text-info\" href=\"/programs/business-coach-program\"> View more <i _ngcontent-thm-c37=\"\" aria-hidden=\"true\" class=\"fa fa-arrow-circle-right ms-2\"></i></a></p></div></div><!----></div></app-program-item></div><!----></div></div><section _ngcontent-thm-c38=\"\" class=\"section-pad\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefits of Mentorship</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Our team of expert mentors provides guidance, support, advice, and a sounding board for personal and professional growth. The mentorship programs help in skill development, networking, career advancement, and understanding of the industry. A mentor can also provide valuable perspective and serve as a role model for the mentee. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Increase Self-Confidence</h5><p _ngcontent-thm-c38=\"\"> Believe in yourself, set realistic goals, focus on strengths, take risks, learn from mistakes, surround yourself with positivity, take responsibility, and reward progress. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Increase Self-Awareness</h5><p _ngcontent-thm-c38=\"\"> Observe your thoughts and actions, Reflect on your experiences, Analyze your behavior, Learn from your mistakes, Act on newfound understanding. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Learn from Other’s Experiences</h5><p _ngcontent-thm-c38=\"\"> Seek out diverse perspectives, listen actively, question respectfully, empathize, apply knowledge gained. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Learn to Self-Respect</h5><p _ngcontent-thm-c38=\"\"> Set boundaries, practice self-care, honor commitments, value yourself, communicate effectively, be authentic, forgive yourself, accept imperfections, take responsibility, be kind to yourself. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Improve Communications Skills</h5><p _ngcontent-thm-c38=\"\"> Listen actively, Speak clearly, Be concise, Show empathy, Be assertive, Avoid assumptions, Stay calm, Be open-minded, Seek feedback, Show gratitude. </p></div></li></ul></div></div></div></section><section _ngcontent-thm-c38=\"\" class=\"section-pad\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 order-2\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship-2.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefit of Coaching</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Coaching enables personal and professional growth, goal setting and achievement, improved communication and leadership, self-awareness and accountability, positive change, fresh perspective, action planning, and feedback and support. It also provides a confidential, non-judgmental space to discuss challenges and opportunities and access to an experienced expert. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items ms-0\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-left\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Self-awareness</h5><p _ngcontent-thm-c38=\"\"> Coaching helps individuals to gain a deeper understanding of themselves, their strengths, weaknesses, values and beliefs, and how these impact their personal and professional life. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-left\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Goal setting</h5><p _ngcontent-thm-c38=\"\"> Coaching helps individuals to set clear, achievable and measurable goals, create an action plan and stay accountable for progress. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-left\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Skill development</h5><p _ngcontent-thm-c38=\"\"> Coaching helps individuals to develop new skills, strategies and techniques to enhance their personal and professional performance. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-left\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Overcoming limiting beliefs</h5><p _ngcontent-thm-c38=\"\"> Coaching helps individuals to identify and challenge limiting beliefs that hold them back and replace them with empowering ones. </p></div></li><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-left\"></i></div><div _ngcontent-thm-c38=\"\" class=\"col-9\"><h5 _ngcontent-thm-c38=\"\" class=\"fw-semibold\">Performance enhancement</h5><p _ngcontent-thm-c38=\"\"> Coaching helps individuals to improve their performance, increase their effectiveness, and achieve their desired outcomes. </p></div></li></ul></div></div></div></section><section _ngcontent-thm-c38=\"\" class=\"section-pad bg-secondary section-community\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/community-group.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-7 text-primary text-joinus\"><h3 _ngcontent-thm-c38=\"\" class=\"fw-semibold mb-4\">Our Community forum</h3><p _ngcontent-thm-c38=\"\" class=\"mb-4\"> We aim at giving you the best lift to build your skill to the top standard in the industry </p><a _ngcontent-thm-c38=\"\" href=\"#\" class=\"btn btn-info\">Access Community forum</a></div></div></div></section><section _ngcontent-thm-c38=\"\" class=\"section-counter section-pad\"><div _ngcontent-thm-c38=\"\" class=\"py-5 my-5 bg-primary\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row counter-block text-light justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\">0</div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 3 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Expert Mentor(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 0 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 1 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Totals mentee(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item border-0\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 0 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div></div></div></div></section><section _ngcontent-thm-c38=\"\" class=\"features-mentor my-5 py-5\"><div _ngcontent-thm-c38=\"\" class=\"container\"><h3 _ngcontent-thm-c38=\"\" class=\"mb-3\">Feature Mentors</h3><app-public-mentors-items _ngcontent-thm-c38=\"\" _nghost-thm-c36=\"\"><div _ngcontent-thm-c36=\"\" class=\"row mb-5\"><div _ngcontent-thm-c36=\"\" class=\"col-md-6 col-lg-4 mb-4\"><app-public-mentors-item _ngcontent-thm-c36=\"\" _nghost-thm-c35=\"\"><div _ngcontent-thm-c35=\"\"><div _ngcontent-thm-c35=\"\" class=\"card mentor-card p-3 my-3\"><div _ngcontent-thm-c35=\"\" class=\"mentor-card-img text-center\"><img _ngcontent-thm-c35=\"\" alt=\"\" class=\"img-fluid\" src=\"https://dev-api.mentorsbrain.com/storage/profiles/avatar.png\"></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-info mt-3 border-bottom\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-6\"><a _ngcontent-thm-c35=\"\" class=\"text-info h5\" href=\"/mentors/1\">Mael Joe</a><p _ngcontent-thm-c35=\"\" class=\"text-small ms-1\">Personal Service Worker</p></div><div _ngcontent-thm-c35=\"\" class=\"col-6\"><span _ngcontent-thm-c35=\"\" class=\"text-info star-stat\"> (4.0) </span><span _ngcontent-thm-c35=\"\" class=\"text-star\"><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" class=\"fa-regular fa-star text-star-half\"></i></span></div></div></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-stat mt-2\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-7\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> 1 mentees </span></div><div _ngcontent-thm-c35=\"\" class=\"col-5 text-end\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> $8 </span><span _ngcontent-thm-c35=\"\" class=\"text-star-half\"> h </span></div></div></div><!----></div><!----></div><!----></app-public-mentors-item></div><div _ngcontent-thm-c36=\"\" class=\"col-md-6 col-lg-4 mb-4\"><app-public-mentors-item _ngcontent-thm-c36=\"\" _nghost-thm-c35=\"\"><div _ngcontent-thm-c35=\"\"><div _ngcontent-thm-c35=\"\" class=\"card mentor-card p-3 my-3\"><div _ngcontent-thm-c35=\"\" class=\"mentor-card-img text-center\"><img _ngcontent-thm-c35=\"\" alt=\"\" class=\"img-fluid\" src=\"https://dev-api.mentorsbrain.com/storage/profiles/avatar.png\"></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-info mt-3 border-bottom\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-6\"><a _ngcontent-thm-c35=\"\" class=\"text-info h5\" href=\"/mentors/2\">Bharat Sharma</a><p _ngcontent-thm-c35=\"\" class=\"text-small ms-1\"></p></div><div _ngcontent-thm-c35=\"\" class=\"col-6\"><span _ngcontent-thm-c35=\"\" class=\"text-info star-stat\"> (4.0) </span><span _ngcontent-thm-c35=\"\" class=\"text-star\"><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" class=\"fa-regular fa-star text-star-half\"></i></span></div></div></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-stat mt-2\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-7\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> 0 mentees </span></div><div _ngcontent-thm-c35=\"\" class=\"col-5 text-end\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> $8 </span><span _ngcontent-thm-c35=\"\" class=\"text-star-half\"> h </span></div></div></div><!----></div><!----></div><!----></app-public-mentors-item></div><div _ngcontent-thm-c36=\"\" class=\"col-md-6 col-lg-4 mb-4\"><app-public-mentors-item _ngcontent-thm-c36=\"\" _nghost-thm-c35=\"\"><div _ngcontent-thm-c35=\"\"><div _ngcontent-thm-c35=\"\" class=\"card mentor-card p-3 my-3\"><div _ngcontent-thm-c35=\"\" class=\"mentor-card-img text-center\"><img _ngcontent-thm-c35=\"\" alt=\"\" class=\"img-fluid\" src=\"https://dev-api.mentorsbrain.com/storage/profiles/avatar.png\"></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-info mt-3 border-bottom\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-6\"><a _ngcontent-thm-c35=\"\" class=\"text-info h5\" href=\"/mentors/3\">ashish shakya</a><p _ngcontent-thm-c35=\"\" class=\"text-small ms-1\"></p></div><div _ngcontent-thm-c35=\"\" class=\"col-6\"><span _ngcontent-thm-c35=\"\" class=\"text-info star-stat\"> (4.0) </span><span _ngcontent-thm-c35=\"\" class=\"text-star\"><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" aria-hidden=\"true\" class=\"fa fa-star\"></i><i _ngcontent-thm-c35=\"\" class=\"fa-regular fa-star text-star-half\"></i></span></div></div></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-stat mt-2\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-7\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> 0 mentees </span></div><div _ngcontent-thm-c35=\"\" class=\"col-5 text-end\"><span _ngcontent-thm-c35=\"\" class=\"text-info\"> $8 </span><span _ngcontent-thm-c35=\"\" class=\"text-star-half\"> h </span></div></div></div><!----></div><!----></div><!----></app-public-mentors-item></div><!----></div><!----></app-public-mentors-items><p _ngcontent-thm-c38=\"\" class=\"mt-3 text-center\"><a _ngcontent-thm-c38=\"\" href=\"\" class=\"btn btn-info rounded fw-semibold py-3\"> View more </a></p></div></section><!----></div></app-home><!----></main><app-public-footer _ngcontent-thm-c42=\"\" _nghost-thm-c41=\"\"><footer _ngcontent-thm-c41=\"\" class=\"mt-5 bg-footer py-4 text-light\"><div _ngcontent-thm-c41=\"\" class=\"container\"><div _ngcontent-thm-c41=\"\" class=\"row py-5\"><div _ngcontent-thm-c41=\"\" class=\"col-sm-6 col-md-3\"><h3 _ngcontent-thm-c41=\"\" class=\"footer-brand\">Mentorship </h3><p _ngcontent-thm-c41=\"\"> E-mail: <a _ngcontent-thm-c41=\"\" href=\"\" class=\"text-light\">email@mail.com</a></p><p _ngcontent-thm-c41=\"\"> Phone: <a _ngcontent-thm-c41=\"\" href=\"tel:\" class=\"text-light\">+2626200000.0.0.</a></p><div _ngcontent-thm-c41=\"\" class=\"d-flex\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-facebook-f\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-instagram\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-twitter\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-linkedin-in\"></i></a></div></div><div _ngcontent-thm-c41=\"\" class=\"col-sm-6 col-md-3\"><h3 _ngcontent-thm-c41=\"\"> Quick links </h3><p _ngcontent-thm-c41=\"\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"footer-link\"><i _ngcontent-thm-c41=\"\" aria-hidden=\"true\" class=\"fa fa-chevron-right text-small me-2\"></i> How it works </a></p><p _ngcontent-thm-c41=\"\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"footer-link\"><i _ngcontent-thm-c41=\"\" aria-hidden=\"true\" class=\"fa fa-chevron-right text-small me-2\"></i> Programs</a></p><p _ngcontent-thm-c41=\"\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"footer-link\"><i _ngcontent-thm-c41=\"\" aria-hidden=\"true\" class=\"fa fa-chevron-right text-small me-2\"></i> Find mentor </a></p><p _ngcontent-thm-c41=\"\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"footer-link\"><i _ngcontent-thm-c41=\"\" aria-hidden=\"true\" class=\"fa fa-chevron-right text-small me-2\"></i> Programs </a></p></div><div _ngcontent-thm-c41=\"\" class=\"col-sm-6\"><h3 _ngcontent-thm-c41=\"\"> Send message </h3></div></div><p _ngcontent-thm-c41=\"\" class=\"text-center\"> © Copyright 2022 Mentorship. All Rights Reserved | Site-Map </p></div></footer></app-public-footer></app-public><!----><app-alert _ngcontent-thm-c33=\"\" _nghost-thm-c30=\"\"><div _ngcontent-thm-c30=\"\" id=\"alert-global\" class=\"alert-box bottom-right\" style=\"display: none;\"><div _ngcontent-thm-c30=\"\" class=\"alert-content border-warning\"><div _ngcontent-thm-c30=\"\" class=\"alert-body\"><span _ngcontent-thm-c30=\"\" class=\"close-btn\"><app-icon _ngcontent-thm-c30=\"\" icon=\"x\" _nghost-thm-c26=\"\"><span _ngcontent-thm-c26=\"\" role=\"button\" class=\"bi bi-x\" style=\"color: inherit; font-size: 14px;\"></span></app-icon></span><div _ngcontent-thm-c30=\"\" class=\"mt-3\"><div _ngcontent-thm-c30=\"\" class=\"alert-icon\"><app-icon _ngcontent-thm-c30=\"\" icon=\"check-circle\" classe=\"text-success\" _nghost-thm-c26=\"\"><span _ngcontent-thm-c26=\"\" role=\"button\" class=\"bi bi-check-circle text-success\" style=\"color: inherit; font-size: 30px; display: none;\"></span></app-icon><app-icon _ngcontent-thm-c30=\"\" icon=\"exclamation-triangle\" classe=\"text-warning\" _nghost-thm-c26=\"\"><span _ngcontent-thm-c26=\"\" role=\"button\" class=\"bi bi-exclamation-triangle text-warning\" style=\"color: inherit; font-size: 30px; display: inline-block;\"></span></app-icon><app-icon _ngcontent-thm-c30=\"\" icon=\"exclamation-octagon\" classe=\"text-danger\" _nghost-thm-c26=\"\"><span _ngcontent-thm-c26=\"\" role=\"button\" class=\"bi bi-exclamation-octagon text-danger\" style=\"color: inherit; font-size: 30px; display: none;\"></span></app-icon></div><div _ngcontent-thm-c30=\"\" class=\"alert-message text-center mt-3\">Alert !</div></div></div></div></div></app-alert><app-md-loader _ngcontent-thm-c33=\"\" _nghost-thm-c32=\"\"><div _ngcontent-thm-c32=\"\" id=\"global-loader\" class=\"md-loader-container\" style=\"display: none;\"><div _ngcontent-thm-c32=\"\" class=\"col-6 col-sm-5 col-md-4 col-lg-3 p-2 md-loader\"><span _ngcontent-thm-c32=\"\" class=\"loader-text me-2\">Loading ...</span><img _ngcontent-thm-c32=\"\" src=\"assets/images/loading.gif\" width=\"20\" alt=\"\"></div></div></app-md-loader></app-root>\n\n\t\t<script src=\"assets/js/jquery3.6.3.min.js\"></script>\n\t\t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css\">\n\n\t\t<script src=\"assets/js/quickv.js\"></script>\n\t<script src=\"runtime.415403467f7f065b.js\" type=\"module\"></script><script src=\"polyfills.01d4608cf3b923fc.js\" type=\"module\"></script><script src=\"main.bcf7b2dfae5d9d37.js\" type=\"module\"></script>\n\n</body></html>",
+  "images": [
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/images/hero-img.png",
+      "alt": "",
+      "width": 526,
+      "height": 504
+    },
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/illustrations/iii.png",
+      "alt": "",
+      "width": 63,
+      "height": 57
+    },
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/images/benefik-mentorship.png",
+      "alt": "",
+      "width": 578,
+      "height": 671
+    },
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/images/benefik-mentorship-2.png",
+      "alt": "",
+      "width": 578,
+      "height": 671
+    },
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/images/community-group.png",
+      "alt": "",
+      "width": 403,
+      "height": 621
+    },
+    {
+      "src": "https://dev-api.mentorsbrain.com/storage/profiles/avatar.png",
+      "alt": "",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "src": "https://dev-api.mentorsbrain.com/storage/profiles/avatar.png",
+      "alt": "",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "src": "https://dev-api.mentorsbrain.com/storage/profiles/avatar.png",
+      "alt": "",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "src": "https://dev-client.mentorsbrain.com/assets/images/loading.gif",
+      "alt": "",
+      "width": 20,
+      "height": 200
+    }
+  ],
+  "links": [
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "Mentorship."
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "Home"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/resources",
+      "text": "Resources"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/mentors",
+      "text": "Find a mentor"
+    },
+    {
+      "href": "",
+      "text": "Programs"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/career-mentorship-program",
+      "text": "Career Mentorship Program"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/life-coach-program",
+      "text": "Life Coach Program"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/business-mentorship-program",
+      "text": "Business Mentorship Program"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/business-coach-program",
+      "text": "Business Coach Program"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/contact-us",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/login",
+      "text": "Login"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/register",
+      "text": "Signup"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/register",
+      "text": "Become mentor"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/mentors",
+      "text": "Find mentor"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/career-mentorship-program",
+      "text": "View more"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/life-coach-program",
+      "text": "View more"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/business-mentorship-program",
+      "text": "View more"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/programs/business-coach-program",
+      "text": "View more"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/#",
+      "text": "Access Community forum"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/mentors/1",
+      "text": "Mael Joe"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/mentors/2",
+      "text": "Bharat Sharma"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/mentors/3",
+      "text": "ashish shakya"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "View more"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "email@mail.com"
+    },
+    {
+      "href": "tel:",
+      "text": "+2626200000.0.0."
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": ""
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": ""
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": ""
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": ""
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "How it works"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "Programs"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "Find mentor"
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/",
+      "text": "Programs"
+    }
+  ],
+  "navigation": "<nav _ngcontent-thm-c40=\"\" class=\"navbar main-navbar navbar-expand-lg bg-navbar py-4\"><div _ngcontent-thm-c40=\"\" class=\"container\"><a _ngcontent-thm-c40=\"\" href=\"/\" class=\"navbar-brand fw-bold\">Mentorship.</a><button _ngcontent-thm-c40=\"\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#main-navabar\" aria-controls=\"main-navabar\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span _ngcontent-thm-c40=\"\" class=\"navbar-toggler-icon\"></span></button><div _ngcontent-thm-c40=\"\" id=\"main-navabar\" class=\"collapse navbar-collapse\"><ul _ngcontent-thm-c40=\"\" class=\"navbar-nav mx-auto mb-2 mb-lg-0\"><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/\" routerlinkactive=\"active\" class=\"nav-link active\" href=\"/\">Home</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlinkactive=\"active\" routerlink=\"/resources\" class=\"nav-link\" href=\"/resources\">Resources</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/mentors\" class=\"nav-link\" href=\"/mentors\">Find a mentor</a></li><li _ngcontent-thm-c40=\"\" class=\"dropdown nav-item\"><a _ngcontent-thm-c40=\"\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" routerlinkactive=\"active\" class=\"nav-link dropdown-toggle\"> Programs </a><ul _ngcontent-thm-c40=\"\" class=\"dropdown-menu shadow border-0 rounded\"><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/career-mentorship-program\"> Career Mentorship Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/life-coach-program\"> Life Coach Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/business-mentorship-program\"> Business Mentorship Program </a></li><li _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" class=\"dropdown-item\" href=\"/programs/business-coach-program\"> Business Coach Program </a></li><!----></ul><!----></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/contact-us\" class=\"nav-link\" href=\"/contact-us\">Contact Us</a></li></ul><div _ngcontent-thm-c40=\"\" class=\"d-flex\"><!----><div _ngcontent-thm-c40=\"\"><a _ngcontent-thm-c40=\"\" routerlink=\"/login\" class=\"btn me-1 fw-bold border-0\" href=\"/login\">Login</a><a _ngcontent-thm-c40=\"\" routerlink=\"/register\" class=\"btn btn-primary\" href=\"/register\">Signup</a></div><!----></div></div></div></nav>",
+  "contentSections": [
+    {
+      "selector": "main[0]",
+      "html": "<main _ngcontent-thm-c42=\"\"><router-outlet _ngcontent-thm-c42=\"\"></router-outlet><app-home _nghost-thm-c38=\"\"><div _ngcontent-thm-c38=\"\"><div _ngcontent-thm-c38=\"\" class=\"container py-3 py-sm-5\"><div _ngcontent-thm-c38=\"\" class=\"row flex-lg-row-reverse justify-content-between align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"mx-auto col-sm-8 col-lg-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/hero-img.png\" width=\"700\" height=\"500\" loading=\"lazy\" class=\"d-block mx-lg-auto img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-lg-6\"><h1 _ngcontent-thm-c38=\"\" class=\"hero-title mb-4 d-flex flex-wrap\"> Find your <span _ngcontent-thm-c38=\"\" class=\"text-marked idol\"> IDOL <img _ngcontent-thm-c38=\"\" src=\"assets/illustrations/iii.png\" alt=\"\" class=\"iii\"></span> and <span _ngcontent-thm-c38=\"\" class=\"text-marked ms-0\">KISS</span> your <span _ngcontent-thm-c38=\"\" class=\"text-marked\"> SUCCESS <span _ngcontent-thm-c38=\"\" class=\"bar\"></span><span _ngcontent-thm-c38=\"\" class=\"bar\"></span></sp...",
+      "text": "Find your  IDOL  and KISS your  SUCCESS  Get in touch with your mentor for previte one on one online lesson to boost your success Become mentorFind mentor Career Mentorship Program  Guidance, Support, Skill Development, Networking, Growth.  View more  Life Coach Program  Personal Growth, Self-Discovery, Empowerment, Balance, Fulfillment.  View more  Business Mentorship Program  Entrepreneurial Success, Strategy, Expertise, Networking, Growth.   View more  Business Coach Program  Success, Strateg..."
+    },
+    {
+      "selector": ".container[0]",
+      "html": "<div _ngcontent-thm-c40=\"\" class=\"container\"><a _ngcontent-thm-c40=\"\" href=\"/\" class=\"navbar-brand fw-bold\">Mentorship.</a><button _ngcontent-thm-c40=\"\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#main-navabar\" aria-controls=\"main-navabar\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span _ngcontent-thm-c40=\"\" class=\"navbar-toggler-icon\"></span></button><div _ngcontent-thm-c40=\"\" id=\"main-navabar\" class=\"collapse navbar-collapse\"><ul _ngcontent-thm-c40=\"\" class=\"navbar-nav mx-auto mb-2 mb-lg-0\"><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/\" routerlinkactive=\"active\" class=\"nav-link active\" href=\"/\">Home</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlinkactive=\"active\" routerlink=\"/resources\" class=\"nav-link\" href=\"/resources\">Resources</a></li><li _ngcontent-thm-c40=\"\" class=\"nav-item\"><a _ngcontent-thm-c40=\"\" routerlink=\"/mentors\" class=\"nav-link\" href=\"/mentors\">Find a...",
+      "text": "Mentorship.HomeResourcesFind a mentor Programs  Career Mentorship Program  Life Coach Program  Business Mentorship Program  Business Coach Program Contact UsLoginSignup..."
+    },
+    {
+      "selector": ".container[1]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container py-3 py-sm-5\"><div _ngcontent-thm-c38=\"\" class=\"row flex-lg-row-reverse justify-content-between align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"mx-auto col-sm-8 col-lg-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/hero-img.png\" width=\"700\" height=\"500\" loading=\"lazy\" class=\"d-block mx-lg-auto img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-lg-6\"><h1 _ngcontent-thm-c38=\"\" class=\"hero-title mb-4 d-flex flex-wrap\"> Find your <span _ngcontent-thm-c38=\"\" class=\"text-marked idol\"> IDOL <img _ngcontent-thm-c38=\"\" src=\"assets/illustrations/iii.png\" alt=\"\" class=\"iii\"></span> and <span _ngcontent-thm-c38=\"\" class=\"text-marked ms-0\">KISS</span> your <span _ngcontent-thm-c38=\"\" class=\"text-marked\"> SUCCESS <span _ngcontent-thm-c38=\"\" class=\"bar\"></span><span _ngcontent-thm-c38=\"\" class=\"bar\"></span></span></h1><p _ngcontent-thm-c38=\"\" class=\"fw-semibold fs-5 hero-description mt-4\"> Get in touch with your mentor for previte one on one onl...",
+      "text": "Find your  IDOL  and KISS your  SUCCESS  Get in touch with your mentor for previte one on one online lesson to boost your success Become mentorFind mentor..."
+    },
+    {
+      "selector": ".container[2]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container my-5\"><div _ngcontent-thm-c38=\"\" class=\"row\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 col-lg-3\"><app-program-item _ngcontent-thm-c38=\"\" _nghost-thm-c37=\"\"><div _ngcontent-thm-c37=\"\" class=\"py-1\" style=\"height: 100%;\"><div _ngcontent-thm-c37=\"\" class=\"card program-card\"><div _ngcontent-thm-c37=\"\" class=\"card-body\"><span _ngcontent-thm-c37=\"\" class=\"program-icon\" style=\"background-color: rgb(40, 69, 126);\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i></span><div _ngcontent-thm-c37=\"\" class=\"program-type\"></div><div _ngcontent-thm-c37=\"\" class=\"program-title my-2\"> Career Mentorship Program </div><div _ngcontent-thm-c37=\"\" class=\"program-description mb-3\"> Guidance, Support, Skill Development, Networking, Growth. </div><p _ngcontent-thm-c37=\"\" class=\"mb-0\"><a _ngcontent-thm-c37=\"\" class=\"text-info\" href=\"/programs/career-mentorship-program\"> View more <i _ngcontent-thm-c37=\"\" aria-hidden=\"true\" class=\"fa fa-arrow-circle-right ms-2\"></i></a></p...",
+      "text": "Career Mentorship Program  Guidance, Support, Skill Development, Networking, Growth.  View more  Life Coach Program  Personal Growth, Self-Discovery, Empowerment, Balance, Fulfillment.  View more  Business Mentorship Program  Entrepreneurial Success, Strategy, Expertise, Networking, Growth.   View more  Business Coach Program  Success, Strategy, Skills, Support, Growth.  View more..."
+    },
+    {
+      "selector": ".container[3]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefits of Mentorship</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Our team of expert mentors provides guidance, support, advice, and a sounding board for personal and professional growth. The mentorship programs help in skill development, networking, career advancement, and understanding of the industry. A mentor can also provide valuable perspective and serve as a role model for the mentee. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-right\"></i></div><div _ngcontent-thm-c38=\"\" clas...",
+      "text": "Benefits of Mentorship Our team of expert mentors provides guidance, support, advice, and a sounding board for personal and professional growth. The mentorship programs help in skill development, networking, career advancement, and understanding of the industry. A mentor can also provide valuable perspective and serve as a role model for the mentee. Increase Self-Confidence Believe in yourself, set realistic goals, focus on strengths, take risks, learn from mistakes, surround yourself with posit..."
+    },
+    {
+      "selector": ".container[4]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 order-2\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship-2.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefit of Coaching</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Coaching enables personal and professional growth, goal setting and achievement, improved communication and leadership, self-awareness and accountability, positive change, fresh perspective, action planning, and feedback and support. It also provides a confidential, non-judgmental space to discuss challenges and opportunities and access to an experienced expert. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items ms-0\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-caret-lef...",
+      "text": "Benefit of Coaching Coaching enables personal and professional growth, goal setting and achievement, improved communication and leadership, self-awareness and accountability, positive change, fresh perspective, action planning, and feedback and support. It also provides a confidential, non-judgmental space to discuss challenges and opportunities and access to an experienced expert. Self-awareness Coaching helps individuals to gain a deeper understanding of themselves, their strengths, weaknesses..."
+    },
+    {
+      "selector": ".container[5]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/community-group.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-7 text-primary text-joinus\"><h3 _ngcontent-thm-c38=\"\" class=\"fw-semibold mb-4\">Our Community forum</h3><p _ngcontent-thm-c38=\"\" class=\"mb-4\"> We aim at giving you the best lift to build your skill to the top standard in the industry </p><a _ngcontent-thm-c38=\"\" href=\"#\" class=\"btn btn-info\">Access Community forum</a></div></div></div>...",
+      "text": "Our Community forum We aim at giving you the best lift to build your skill to the top standard in the industry Access Community forum..."
+    },
+    {
+      "selector": ".container[6]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row counter-block text-light justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\">0</div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 3 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Expert Mentor(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 0 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 1 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Totals mentee(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item border-0\"><div _n...",
+      "text": "0Succes storie(s) 3 Expert Mentor(s) 0 Succes storie(s) 1 Totals mentee(s) 0 Succes storie(s)..."
+    },
+    {
+      "selector": ".container[7]",
+      "html": "<div _ngcontent-thm-c38=\"\" class=\"container\"><h3 _ngcontent-thm-c38=\"\" class=\"mb-3\">Feature Mentors</h3><app-public-mentors-items _ngcontent-thm-c38=\"\" _nghost-thm-c36=\"\"><div _ngcontent-thm-c36=\"\" class=\"row mb-5\"><div _ngcontent-thm-c36=\"\" class=\"col-md-6 col-lg-4 mb-4\"><app-public-mentors-item _ngcontent-thm-c36=\"\" _nghost-thm-c35=\"\"><div _ngcontent-thm-c35=\"\"><div _ngcontent-thm-c35=\"\" class=\"card mentor-card p-3 my-3\"><div _ngcontent-thm-c35=\"\" class=\"mentor-card-img text-center\"><img _ngcontent-thm-c35=\"\" alt=\"\" class=\"img-fluid\" src=\"https://dev-api.mentorsbrain.com/storage/profiles/avatar.png\"></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-info mt-3 border-bottom\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-6\"><a _ngcontent-thm-c35=\"\" class=\"text-info h5\" href=\"/mentors/1\">Mael Joe</a><p _ngcontent-thm-c35=\"\" class=\"text-small ms-1\">Personal Service Worker</p></div><div _ngcontent-thm-c35=\"\" class=\"col-6\"><span _ngcontent...",
+      "text": "Feature MentorsMael JoePersonal Service Worker (4.0)  1 mentees  $8  h Bharat Sharma (4.0)  0 mentees  $8  h ashish shakya (4.0)  0 mentees  $8  h  View more..."
+    },
+    {
+      "selector": ".container[8]",
+      "html": "<div _ngcontent-thm-c41=\"\" class=\"container\"><div _ngcontent-thm-c41=\"\" class=\"row py-5\"><div _ngcontent-thm-c41=\"\" class=\"col-sm-6 col-md-3\"><h3 _ngcontent-thm-c41=\"\" class=\"footer-brand\">Mentorship </h3><p _ngcontent-thm-c41=\"\"> E-mail: <a _ngcontent-thm-c41=\"\" href=\"\" class=\"text-light\">email@mail.com</a></p><p _ngcontent-thm-c41=\"\"> Phone: <a _ngcontent-thm-c41=\"\" href=\"tel:\" class=\"text-light\">+2626200000.0.0.</a></p><div _ngcontent-thm-c41=\"\" class=\"d-flex\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-facebook-f\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-instagram\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-twitter\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-linkedin-in\"></i></a></div></div><div _ngcontent-thm-c41=\"\" class=\"col-sm-6 col-md-3...",
+      "text": "Mentorship  E-mail: email@mail.com Phone: +2626200000.0.0. Quick links  How it works  Programs Find mentor  Programs  Send message  © Copyright 2022 Mentorship. All Rights Reserved | Site-Map..."
+    },
+    {
+      "selector": "section[0]",
+      "html": "<section _ngcontent-thm-c38=\"\" class=\"section-pad\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefits of Mentorship</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Our team of expert mentors provides guidance, support, advice, and a sounding board for personal and professional growth. The mentorship programs help in skill development, networking, career advancement, and understanding of the industry. A mentor can also provide valuable perspective and serve as a role model for the mentee. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-primary list-icon-md\"><i _ngcontent-thm-c38=\"\" class=\"fa-solid fa-car...",
+      "text": "Benefits of Mentorship Our team of expert mentors provides guidance, support, advice, and a sounding board for personal and professional growth. The mentorship programs help in skill development, networking, career advancement, and understanding of the industry. A mentor can also provide valuable perspective and serve as a role model for the mentee. Increase Self-Confidence Believe in yourself, set realistic goals, focus on strengths, take risks, learn from mistakes, surround yourself with posit..."
+    },
+    {
+      "selector": "section[1]",
+      "html": "<section _ngcontent-thm-c38=\"\" class=\"section-pad\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-6 order-2\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/benefik-mentorship-2.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><h3 _ngcontent-thm-c38=\"\">Benefit of Coaching</h3><p _ngcontent-thm-c38=\"\" class=\"my-4 fs-6\"> Coaching enables personal and professional growth, goal setting and achievement, improved communication and leadership, self-awareness and accountability, positive change, fresh perspective, action planning, and feedback and support. It also provides a confidential, non-judgmental space to discuss challenges and opportunities and access to an experienced expert. </p><ul _ngcontent-thm-c38=\"\" class=\"list-style-none icons-items ms-0\"><li _ngcontent-thm-c38=\"\" class=\"row mb-3\"><div _ngcontent-thm-c38=\"\" class=\"col-3 list-icon bg-info list-icon-md\"><i...",
+      "text": "Benefit of Coaching Coaching enables personal and professional growth, goal setting and achievement, improved communication and leadership, self-awareness and accountability, positive change, fresh perspective, action planning, and feedback and support. It also provides a confidential, non-judgmental space to discuss challenges and opportunities and access to an experienced expert. Self-awareness Coaching helps individuals to gain a deeper understanding of themselves, their strengths, weaknesses..."
+    },
+    {
+      "selector": "section[2]",
+      "html": "<section _ngcontent-thm-c38=\"\" class=\"section-pad bg-secondary section-community\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row align-items-center justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-sm-5\"><img _ngcontent-thm-c38=\"\" src=\"assets/images/community-group.png\" alt=\"\" class=\"img-fluid\"></div><div _ngcontent-thm-c38=\"\" class=\"col-sm-7 text-primary text-joinus\"><h3 _ngcontent-thm-c38=\"\" class=\"fw-semibold mb-4\">Our Community forum</h3><p _ngcontent-thm-c38=\"\" class=\"mb-4\"> We aim at giving you the best lift to build your skill to the top standard in the industry </p><a _ngcontent-thm-c38=\"\" href=\"#\" class=\"btn btn-info\">Access Community forum</a></div></div></div></section>...",
+      "text": "Our Community forum We aim at giving you the best lift to build your skill to the top standard in the industry Access Community forum..."
+    },
+    {
+      "selector": "section[3]",
+      "html": "<section _ngcontent-thm-c38=\"\" class=\"section-counter section-pad\"><div _ngcontent-thm-c38=\"\" class=\"py-5 my-5 bg-primary\"><div _ngcontent-thm-c38=\"\" class=\"container\"><div _ngcontent-thm-c38=\"\" class=\"row counter-block text-light justify-content-between\"><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\">0</div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 3 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Expert Mentor(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 0 </div><span _ngcontent-thm-c38=\"\" class=\"counter-text\">Succes storie(s)</span></div><div _ngcontent-thm-c38=\"\" class=\"col-6 col-md counter-item\"><div _ngcontent-thm-c38=\"\" class=\"counter-number\"> 1 </div><span _ngcontent-thm-c38=\"\" clas...",
+      "text": "0Succes storie(s) 3 Expert Mentor(s) 0 Succes storie(s) 1 Totals mentee(s) 0 Succes storie(s)..."
+    },
+    {
+      "selector": "section[4]",
+      "html": "<section _ngcontent-thm-c38=\"\" class=\"features-mentor my-5 py-5\"><div _ngcontent-thm-c38=\"\" class=\"container\"><h3 _ngcontent-thm-c38=\"\" class=\"mb-3\">Feature Mentors</h3><app-public-mentors-items _ngcontent-thm-c38=\"\" _nghost-thm-c36=\"\"><div _ngcontent-thm-c36=\"\" class=\"row mb-5\"><div _ngcontent-thm-c36=\"\" class=\"col-md-6 col-lg-4 mb-4\"><app-public-mentors-item _ngcontent-thm-c36=\"\" _nghost-thm-c35=\"\"><div _ngcontent-thm-c35=\"\"><div _ngcontent-thm-c35=\"\" class=\"card mentor-card p-3 my-3\"><div _ngcontent-thm-c35=\"\" class=\"mentor-card-img text-center\"><img _ngcontent-thm-c35=\"\" alt=\"\" class=\"img-fluid\" src=\"https://dev-api.mentorsbrain.com/storage/profiles/avatar.png\"></div><div _ngcontent-thm-c35=\"\" class=\"mentor-card-info mt-3 border-bottom\"><div _ngcontent-thm-c35=\"\" class=\"row align-items-center\"><div _ngcontent-thm-c35=\"\" class=\"col-6\"><a _ngcontent-thm-c35=\"\" class=\"text-info h5\" href=\"/mentors/1\">Mael Joe</a><p _ngcontent-thm-c35=\"\" class=\"text-small ms-1\">Personal Service Worker</...",
+      "text": "Feature MentorsMael JoePersonal Service Worker (4.0)  1 mentees  $8  h Bharat Sharma (4.0)  0 mentees  $8  h ashish shakya (4.0)  0 mentees  $8  h  View more..."
+    },
+    {
+      "selector": "footer[0]",
+      "html": "<footer _ngcontent-thm-c41=\"\" class=\"mt-5 bg-footer py-4 text-light\"><div _ngcontent-thm-c41=\"\" class=\"container\"><div _ngcontent-thm-c41=\"\" class=\"row py-5\"><div _ngcontent-thm-c41=\"\" class=\"col-sm-6 col-md-3\"><h3 _ngcontent-thm-c41=\"\" class=\"footer-brand\">Mentorship </h3><p _ngcontent-thm-c41=\"\"> E-mail: <a _ngcontent-thm-c41=\"\" href=\"\" class=\"text-light\">email@mail.com</a></p><p _ngcontent-thm-c41=\"\"> Phone: <a _ngcontent-thm-c41=\"\" href=\"tel:\" class=\"text-light\">+2626200000.0.0.</a></p><div _ngcontent-thm-c41=\"\" class=\"d-flex\"><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-facebook-f\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-instagram\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-twitter\"></i></a><a _ngcontent-thm-c41=\"\" href=\"\" class=\"social-link\"><i _ngcontent-thm-c41=\"\" class=\"fa-brands fa-linkedin-in\"></...",
+      "text": "Mentorship  E-mail: email@mail.com Phone: +2626200000.0.0. Quick links  How it works  Programs Find mentor  Programs  Send message  © Copyright 2022 Mentorship. All Rights Reserved | Site-Map..."
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      "index": 0,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 1,
+      "disabled": false
+    },
+    {
+      "href": "https://dev-client.mentorsbrain.com/styles.daf320c7eaebde0c.css",
+      "index": 2,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 3,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 4,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 5,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 6,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "index": 7,
+      "disabled": false
+    },
+    {
+      "href": "https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css",
+      "index": 8,
+      "disabled": false
+    }
+  ],
+  "bodyStyles": {
+    "fontFamily": "Inter, Montserrat, sans-serif",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(33, 37, 41)",
+    "fontSize": "16px"
+  },
+  "summary": {
+    "totalImages": 9,
+    "totalLinks": 33,
+    "hasNavigation": true,
+    "contentSectionsFound": 16
+  }
+}

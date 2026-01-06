@@ -1,0 +1,111 @@
+{
+    "name": "mentorship/wordpress-theme",
+    "description": "A custom WordPress theme for mentorship websites connecting mentors and mentees",
+    "type": "wordpress-theme",
+    "keywords": [
+        "wordpress",
+        "theme",
+        "mentorship",
+        "education",
+        "learning",
+        "responsive"
+    ],
+    "homepage": "https://github.com/yourusername/mentorship-wordpress",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com",
+            "homepage": "https://yourwebsite.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yourusername/mentorship-wordpress/issues",
+        "source": "https://github.com/yourusername/mentorship-wordpress"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "phpmd/phpmd": "^2.13",
+        "sebastian/phpcpd": "^6.0",
+        "phpstan/phpstan": "^1.8",
+        "szepeviktor/phpstan-wordpress": "^1.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "installer-name": "mentorship"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mentorship\\": "wp-content/themes/mentorship/inc/classes/"
+        },
+        "files": [
+            "wp-content/themes/mentorship/inc/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mentorship\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@setup-coding-standards"
+        ],
+        "post-update-cmd": [
+            "@setup-coding-standards"
+        ],
+        "setup-coding-standards": [
+            "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/phpcompatibility-wp"
+        ],
+        "lint": [
+            "vendor/bin/phpcs --standard=WordPress wp-content/themes/mentorship --extensions=php --ignore=*/node_modules/*,*/vendor/*"
+        ],
+        "lint:fix": [
+            "vendor/bin/phpcbf --standard=WordPress wp-content/themes/mentorship --extensions=php --ignore=*/node_modules/*,*/vendor/*"
+        ],
+        "test": [
+            "vendor/bin/phpunit"
+        ],
+        "test:coverage": [
+            "vendor/bin/phpunit --coverage-html coverage"
+        ],
+        "analyze": [
+            "vendor/bin/phpstan analyse wp-content/themes/mentorship --level=5"
+        ],
+        "check": [
+            "@lint",
+            "@analyze",
+            "@test"
+        ],
+        "security": [
+            "composer audit"
+        ]
+    },
+    "scripts-descriptions": {
+        "lint": "Run PHP CodeSniffer to check code standards",
+        "lint:fix": "Run PHP Code Beautifier to fix code standards issues",
+        "test": "Run PHPUnit tests",
+        "test:coverage": "Run PHPUnit tests with coverage report",
+        "analyze": "Run PHPStan static analysis",
+        "check": "Run all quality checks (lint, analyze, test)",
+        "security": "Check for security vulnerabilities in dependencies"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

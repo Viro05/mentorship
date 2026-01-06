@@ -1,0 +1,28 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+
+[env]
+NODE_VERSION = "18"
+PHP_VERSION = "8.1"
+NIXPACKS_PHP_ROOT_DIR = "/app"
+NIXPACKS_PHP_FALLBACK_PATH = "/index.php"
+
+# WordPress Database Configuration
+WORDPRESS_DB_HOST = "${{ MYSQL_HOST }}"
+WORDPRESS_DB_NAME = "${{ MYSQL_DATABASE }}"
+WORDPRESS_DB_USER = "${{ MYSQL_USER }}"
+WORDPRESS_DB_PASSWORD = "${{ MYSQL_PASSWORD }}"
+WORDPRESS_DB_PORT = "${{ MYSQL_PORT }}"
+
+# WordPress Configuration
+WP_HOME = "${{ RAILWAY_STATIC_URL }}"
+WP_SITEURL = "${{ RAILWAY_STATIC_URL }}"
+WORDPRESS_CONFIG_EXTRA = "define('FS_METHOD', 'direct');"
+
+[variables]
+PORT = "8080"
