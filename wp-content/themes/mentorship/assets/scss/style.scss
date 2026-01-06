@@ -820,6 +820,54 @@ textarea.form-control {
     }
 }
 
+// Footer background and link styles
+.bg-footer {
+    background: var(--bg-dark) !important;
+    color: var(--bg-primary) !important;
+}
+
+.footer-link {
+    color: var(--text-light) !important;
+    text-decoration: none;
+    display: inline-block;
+    transition: var(--transition-base);
+
+    &:hover {
+        color: var(--bg-primary) !important;
+        text-decoration: none;
+    }
+}
+
+.footer-brand {
+    color: var(--bg-primary) !important;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+// Ensure good contrast for footer text
+.site-footer {
+    .text-light {
+        color: #ffffff !important;
+    }
+
+    a {
+        color: #ffffff !important;
+
+        &:hover {
+            color: var(--primary-color) !important;
+        }
+    }
+
+    h3 {
+        color: #ffffff !important;
+        font-weight: var(--font-weight-semibold);
+    }
+
+    p {
+        color: #cccccc !important;
+    }
+}
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: var(--spacing-md);

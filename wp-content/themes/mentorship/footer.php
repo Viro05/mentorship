@@ -28,41 +28,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-3">
-                        <h3>Quick links</h3>
-                        <p>
-                            <a href="#" class="footer-link">
-                                <i class="fa fa-chevron-right text-small me-2" aria-hidden="true"></i>
-                                How it works
-                            </a>
-                        </p>
-                        <p>
-                            <a href="<?php echo esc_url(
-                                home_url("/programs"),
-                            ); ?>" class="footer-link">
-                                <i class="fa fa-chevron-right text-small me-2" aria-hidden="true"></i>
-                                Programs
-                            </a>
-                        </p>
-                        <p>
-                            <a href="<?php echo esc_url(
-                                home_url("/mentors"),
-                            ); ?>" class="footer-link">
-                                <i class="fa fa-chevron-right text-small me-2" aria-hidden="true"></i>
-                                Find mentor
-                            </a>
-                        </p>
-                        <p>
-                            <a href="<?php echo esc_url(
-                                home_url("/programs"),
-                            ); ?>" class="footer-link">
-                                <i class="fa fa-chevron-right text-small me-2" aria-hidden="true"></i>
-                                Programs
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-6">
                         <h3>Send message</h3>
                         <div class="footer-contact-form">
                             <?php
