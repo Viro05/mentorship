@@ -839,9 +839,12 @@ textarea.form-control {
 }
 
 .footer-brand {
-    color: var(--bg-primary) !important;
+    color: #ffffff !important;
     font-weight: var(--font-weight-bold);
+    font-size: 2rem !important;
     margin-bottom: var(--spacing-md);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+    letter-spacing: 1px;
 }
 
 // Ensure good contrast for footer text

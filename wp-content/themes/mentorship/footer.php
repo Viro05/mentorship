@@ -3,9 +3,9 @@
     <footer id="colophon" class="site-footer">
         <div class="mt-5 bg-footer py-4 text-light">
             <div class="container">
-                <div class="row py-5">
-                    <div class="col-sm-6 col-md-3">
-                        <h3 class="footer-brand">Mentorship </h3>
+                <div class="row py-5 justify-content-center">
+                    <div class="col-sm-8 col-md-6 text-center">
+                        <h3 class="footer-brand text-white fw-bold mb-4" style="font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Mentorship</h3>
                         <p>
                             E-mail: <a href="mailto:email@mail.com" class="text-light">email@mail.com</a>
                         </p>
@@ -28,16 +28,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-6">
-                        <h3>Send message</h3>
-                        <div class="footer-contact-form">
-                            <?php
-// You can add a contact form plugin shortcode here
-// Example: echo do_shortcode('[contact-form-7 id="123" title="Footer Contact"]');
-?>
-                            <p>Contact form will be implemented here.</p>
-                        </div>
-                    </div>
+
                 </div>
 
                 <p class="text-center">
